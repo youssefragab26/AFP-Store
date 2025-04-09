@@ -14,7 +14,7 @@ function BestSeller(){
     let content = BestSellerContent.map(
         function(best){
             return (
-            <div className="w-[300px] h-[400px] bg-[#fff] rounded-2xl overflow-hidden m-2.5 shadow-2xl">
+            <div key={best.id} className="w-[300px] h-[400px] bg-[#fff] rounded-2xl overflow-hidden m-2.5 shadow-2xl">
                 <div className="h-[300px] w-[300px]">
                     <img src={best.photoSRC} alt="iPhone16Pro" className="w-[300px] h-[300px] object-cover rounded-t-2xl"/>
                 </div>
