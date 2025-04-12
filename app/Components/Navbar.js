@@ -2,6 +2,7 @@
 function Navbar(){
     function handelClick(){
         alert("Done")
+        console.log("Item Add...")
     }
     return(
         <div>
